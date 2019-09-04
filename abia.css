@@ -1,0 +1,159 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	padding: 0 100px;
+	background-color: #002147;
+}
+
+.container .first-roll ul li {
+	display: inline;
+}
+
+.first-roll ul .diff {
+	border: 1px solid white;
+	background-color: white;
+	padding: 10px;
+	padding-right: -20px;
+	transition: 1s;
+	color: red;
+}
+
+.diff:hover {
+	background-color: #002147;
+	color: white;
+	transition: 1s;
+}
+
+.first-roll {
+	padding: 10px;
+}
+
+ul {
+	text-align: 
+}
+
+.sec-roll ul {
+	display: flex;
+	list-style-type: none;
+	border: 1px solid black;
+	margin: 0px;
+	background-color: red;
+	padding-left: 10%;
+	font-family: arial;
+	cursor: pointer;
+}
+
+li {
+	padding: 10px;
+	color: white;
+}
+
+.lg img {
+	width: 85px;
+	height: 85px;
+	border: 5px solid red;
+	border-radius: 70px;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	padding: 10px;
+	background-color: white;
+}
+
+li.style{
+	font-family: cursive;
+	font-size: 20px;
+
+}
+.blue {
+	color: #002147;
+}
+ 
+ .sec-roll ul li:hover {
+ 	color: #002147;
+ }
+
+.shift {
+	position: absolute;
+	bottom: 150px;
+	left: 250px;
+	color: white;
+	font-family: arial; 
+}
+
+
+.shift span {
+	position: absolute;
+	bottom: -60px;
+	left: 50%;
+}
+
+.link a {
+	color: white;
+	text-decoration: none;
+}
+
+.wrk {
+	border: 1px solid #002147;
+	color: red;
+	position: fixed;
+	bottom: 0px;
+	padding: 20px 20px;
+	background-color: black;
+	padding-right: 50px;
+}
+
+.wrk span {
+	color: white;
+
+}
+
+.fill {
+	border: 1px #002147;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	background-color: #002147;
+	right: 0; 
+	padding: 3px 1px;
+	width: 300px;
+	border-radius: 30px;
+	font-family: arial;
+	height: 450px;
+}
+
+.fill div {
+	padding: 0px;
+}
+
+.fills {
+	background-color: white;
+	color: #002147;
+	padding-top: 10px;
+	height: 400px;
+
+}
+.fill input, select, option, textarea {
+	padding: 10px;
+	margin: 5px;
+
+}
+
+input, select, textarea {
+	border-radius: 5px;
+	width: 250px;
+}
+
+.smc input {
+	color: white;
+	background-color: #002147;
+	width: 250px;
+	text-align: center;
+	border-radius: 5px;
+}
+
